@@ -1,0 +1,56 @@
+body{
+	font-family:Helvetica;
+	background-color:#224abe;
+}
+.main{
+	display:flex;
+	width: 70% ;
+	margin:auto ;
+	background-color:white;
+	
+}
+.right-section{
+	display: flex ;
+	flex-direction: column ;
+	margin:auto ;
+	text-align:center ;
+
+}
+img{
+	height:100%;
+}
+h1{
+	font-size: 30px;
+	color: #3a3b45;
+	font-size:1.5rem;
+}
+.bu_tton{
+	background-color:#2e59d9 ;
+	width: 100% ;
+	border-radius: 15px;
+}
+.main_form{
+	display: flex;
+	flex-direction: column ;
+	justify-content: space-between;
+}
+input:not(.che_ck){
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width:100% ;
+	height: 45px;
+	border-radius: 25px ;
+}
+@media screen and (max-width: 600px) {
+	.left-section{
+		display:none;
+		visibility:hidden ;
+	}
+	.right-section{
+		display: block;
+		width:100%;
+		height:100% ;
+		margin: 0px;
+	}
+	
+}
